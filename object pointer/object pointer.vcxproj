@@ -14,6 +14,7 @@
     <ProjectGuid>{76243A45-0DCE-4844-96BD-310816C4BEE3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>objectpointer</RootNamespace>
+    <ProjectName>Object members</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,10 +80,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="coordinate.cpp" />
+    <ClCompile Include="Line.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="coordinate.h" />
+    <ClInclude Include="Line.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
